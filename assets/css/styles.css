@@ -1,2 +1,17 @@
 
 /* css */
+p, li {
+  color:red;
+}
+/* to link to a specific class use dot(.) */
+
+.myClass {
+  color:blue;
+  background-color: purple;
+  text-decoration: underline;
+}
+
+#myUniqueID {
+  color:magenta;
+
+}
