@@ -2,16 +2,70 @@
 /* css */
 p, li {
   color: #120a6a;
+  font-family: 'Source Sans Pro', sans-serif;
 }
 /* to link to a specific class use dot(.) */
+h1 {
+  font-size: 250px
+}
 
 .ramones {
   font-family: 'Source Sans Pro', sans-serif;
-}
-.text {
-  font-family: 'Source Sans Pro', sans-serif;
+  mix-blend-mode: multiply;
+  margin-left: auto;
+  margin-right: auto;
 }
 
-.container{
+.container {
   background-color: #dae0d3
+}
+
+.stack1{
+  position: absolute;
+}
+.stack2{
+  position: absolute;
+}
+.stack3{
+  position: absolute;
+}
+.stack4{
+  position: absolute;
+}
+.stack5{
+  position: absolute;
+}
+
+.stack6 {
+  position: absolute;
+}
+
+.blue {
+  z-index: -1;
+  color: #1586b5;
+}
+
+.pink {
+  z-index: 1;
+  color: #bb117b;
+}
+
+.one {
+  top : 20px;
+}
+
+.two {
+  top : 15px;
+}
+
+.three {
+  top : 10px;
+}
+
+.four {
+  top : 5px;
+}
+
+.five {
+  top : 2px;
 }
