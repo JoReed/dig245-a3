@@ -1,17 +1,17 @@
 
 /* css */
 p, li {
-  color:red;
+  color: #120a6a;
 }
 /* to link to a specific class use dot(.) */
 
-.myClass {
-  color:blue;
-  background-color: purple;
-  text-decoration: underline;
+.ramones {
+  font-family: 'Source Sans Pro', sans-serif;
+}
+.text {
+  font-family: 'Source Sans Pro', sans-serif;
 }
 
-#myUniqueID {
-  color:magenta;
-
+.container{
+  background-color: #dae0d3
 }
