@@ -11,9 +11,10 @@ h1 {
 
 .ramones {
   font-family: 'Source Sans Pro', sans-serif;
-  mix-blend-mode: multiply;
+
   margin-left: auto;
   margin-right: auto;
+  opacity: 1;
 }
 
 .container {
@@ -41,11 +42,13 @@ h1 {
 }
 
 .blue {
+  mix-blend-mode: multiply;
   z-index: -1;
   color: #1586b5;
 }
 
 .pink {
+  mix-blend-mode: multiply;
   z-index: 1;
   color: #bb117b;
 }
