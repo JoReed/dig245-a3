@@ -11,16 +11,13 @@ h1 {
 
 .ramones {
   font-family: 'Source Sans Pro', sans-serif;
-
-  margin-left: auto;
-  margin-right: auto;
-  opacity: 1;
 }
 
 .container {
   background-color: #dae0d3
 }
 
+/* use the .stack class to overlap text */
 .stack1{
   position: absolute;
 }
@@ -36,23 +33,25 @@ h1 {
 .stack5{
   position: absolute;
 }
-
 .stack6 {
   position: absolute;
 }
 
+/* the #1586b5 ramones */
 .blue {
   mix-blend-mode: multiply;
   z-index: -1;
   color: #1586b5;
 }
 
+/* the #bb117b ramones */
 .pink {
   mix-blend-mode: multiply;
   z-index: 1;
   color: #bb117b;
 }
 
+/* the different offsets for each of the "ramones" */
 .one {
   top : 20px;
 }
